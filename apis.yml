@@ -1,0 +1,70 @@
+aid: visual-studio-code
+name: Visual Studio Code
+description: >-
+  Visual Studio Code is a free, open-source, cross-platform code editor
+  developed by Microsoft for Windows, Linux, macOS, and the web, built on
+  the MIT-licensed Code - OSS project and distinguished by features such
+  as IntelliSense, debugging, integrated Git, and a marketplace with tens
+  of thousands of extensions. VS Code is not a SaaS REST API; instead,
+  developers extend the editor through the Extension API, a TypeScript /
+  JavaScript programmatic interface that exposes nearly every aspect of
+  the editor for customization. This index points to the Extension API
+  documentation and surrounding developer resources.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Code Editor
+  - Developer Tools
+  - IDE
+  - Open Source
+  - Extension API
+  - Microsoft
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/visual-studio-code/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: visual-studio-code:extension-api
+    name: Visual Studio Code Extension API
+    description: >-
+      Programmatic TypeScript / JavaScript API for building VS Code
+      extensions. The Extension API exposes editor UI, language features,
+      debugging adapters, themes, webviews, source control providers, tasks,
+      and more. It is not a REST API and has no base URL or authentication
+      scheme; extensions run inside the VS Code process and are distributed
+      through the Visual Studio Marketplace.
+    humanURL: https://code.visualstudio.com/api
+    tags:
+      - Extension API
+      - Editor Customization
+      - Language Server
+      - Debug Adapter
+    properties:
+      - type: Documentation
+        url: https://code.visualstudio.com/api
+      - type: API Reference
+        url: https://code.visualstudio.com/api/references/vscode-api
+      - type: Getting Started
+        url: https://code.visualstudio.com/api/get-started/your-first-extension
+      - type: Marketplace
+        url: https://marketplace.visualstudio.com/vscode
+
+common:
+  - type: Website
+    url: https://code.visualstudio.com
+  - type: Documentation
+    url: https://code.visualstudio.com/docs
+  - type: Download
+    url: https://code.visualstudio.com/download
+  - type: GitHub
+    url: https://github.com/microsoft/vscode
+  - type: Marketplace
+    url: https://marketplace.visualstudio.com/vscode
+  - type: Issue Tracker
+    url: https://github.com/microsoft/vscode/issues
+  - type: Blog
+    url: https://code.visualstudio.com/blogs
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
