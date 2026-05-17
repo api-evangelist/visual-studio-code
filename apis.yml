@@ -43,9 +43,9 @@ apis:
     properties:
       - type: Documentation
         url: https://code.visualstudio.com/api
-      - type: API Reference
+      - type: APIReference
         url: https://code.visualstudio.com/api/references/vscode-api
-      - type: Getting Started
+      - type: GettingStarted
         url: https://code.visualstudio.com/api/get-started/your-first-extension
       - type: Marketplace
         url: https://marketplace.visualstudio.com/vscode
