@@ -51,6 +51,8 @@ apis:
         url: https://marketplace.visualstudio.com/vscode
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/vs-code
   - type: Website
     url: https://code.visualstudio.com
   - type: Documentation
