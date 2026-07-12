@@ -51,6 +51,8 @@ apis:
         url: https://marketplace.visualstudio.com/vscode
 
 common:
+  - type: DomainSecurity
+    url: security/visual-studio-code-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/vs-code
   - type: Website
